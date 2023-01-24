@@ -38,6 +38,8 @@ body {
     padding: 1.563rem 2.188rem;
     background-color: var(--pink);
     text-align: center;
+    box-shadow: 0 10px 60px #cc99a2;
+    border-radius: 5%;
 }
 
 nav {
