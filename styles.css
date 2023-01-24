@@ -3,6 +3,7 @@
     --black: #424242;
     --grey: #d3d3d3;
     --light-grey: #f0f0f0;
+    --blue: #89CFF0;
 }
 
 *,
@@ -15,4 +16,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(137, 207, 240) 92%)
+    
+
 }
