@@ -50,5 +50,7 @@ nav .btn {
     height: 2.5rem;
     border-radius: 50%;
     line-height: 2.5rem;
-
+    background-color: var(--cream);
+    color: var(--pink);
+    box-shadow: 0 5px 10px #cc99a2;
 }
