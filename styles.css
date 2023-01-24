@@ -54,4 +54,12 @@ nav .btn {
     background-color: var(--cream);
     color: var(--pink);
     box-shadow: 0 5px 10px #cc99a2;
+    cursor: pointer;
+}
+
+.img {
+    width: 13.75rem;
+    border: 0.5rem solid var(--cream);
+    border-radius: 50%;
+    box-shadow: 0 10px 60px #cc99a2;
 }
