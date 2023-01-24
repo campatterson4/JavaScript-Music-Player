@@ -5,6 +5,7 @@
     --light-grey: #f0f0f0;
     --blue: #89CFF0;
     --pink: #F8C8DC;
+    --cream: #FEFBEA;
 }
 
 *,
@@ -42,4 +43,12 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.875rem;
+}
+
+nav .btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    line-height: 2.5rem;
+
 }
