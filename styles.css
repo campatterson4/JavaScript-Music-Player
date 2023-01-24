@@ -65,3 +65,10 @@ nav .btn {
     border-radius: 50%;
     box-shadow: 0 10px 60px #cc99a2;
 }
+
+.player h1 {
+    font-size: 1.25rem;
+    color: var(--black);
+    margin-top: 1.50rem;
+}
+
