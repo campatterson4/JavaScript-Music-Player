@@ -72,3 +72,8 @@ nav .btn {
     margin-top: 1.50rem;
 }
 
+.player p {
+    font-size: 0.875rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
