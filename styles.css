@@ -42,7 +42,7 @@ body {
     border-radius: 5%;
 }
 
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.875rem;
@@ -57,7 +57,7 @@ nav .btn {
     color: var(--pink);
     box-shadow: 0 5px 10px #cc99a2;
     cursor: pointer;
-}
+} */
 
 .img {
     width: 13.75rem;
