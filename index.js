@@ -67,4 +67,10 @@ function previousSong() {
 next.addEventListener('click', nextSong)
 prev.addEventListener('click', previousSong)
 
+music.addEventListener('timeupdate', showProgress)
 
+function showProgress(x) {
+    const {duration, currentTime} = x.srcElement
+    const progressBar = (currentTime / duration) * 100
+    progress.style.width = `${progressBar}%`
+}
