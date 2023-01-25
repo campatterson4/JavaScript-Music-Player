@@ -9,3 +9,13 @@ const music = document.querySelector('#music')
 const progress = document.querySelector('.progress')
 
 const songs = ['you missed my heart', 'georgia', 'funeral']
+
+let songFiles = 2
+
+playSong(songs[songFiles])
+
+function playSong(song) {
+    songTitle.innerText = song
+    albumCover.src = `images/${song}.jpg`
+    music.src = `resources/${song}.mp3`
+}
