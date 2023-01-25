@@ -32,8 +32,12 @@ playing.addEventListener('click', () => {
 
  function startSong() {
     container.classList.add('playing')
+    playing.querySelector('i.fas').classList.remove('fa-play')
+    playing.querySelector('i.fas').classList.add('fa-pause')
  }
 
 function stopSong() {
-
+    container.classList.add('playing')
+    playing.querySelector('i.fas').classList.add('fa-play')
+    playing.querySelector('i.fas').classList.remove('fa-pause')
 }
