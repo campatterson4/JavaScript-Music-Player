@@ -19,3 +19,4 @@ function playSong(song) {
     albumCover.src = `images/${song}.jpg`
     music.src = `resources/${song}.mp3`
 }
+
