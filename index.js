@@ -45,7 +45,15 @@ function stopSong() {
 }
 
 function nextSong() {
+    songFiles++
 
+    if(songFiles > songs.length - 1) {
+        songFiles = 0
+    }
+
+    playSong(songs[songFiles])
+    
+    startSong()
 }
 
 function previousSong() {
@@ -56,9 +64,8 @@ function previousSong() {
     }
 
     playSong(songs[songFiles])
-    
-    startSong()
-        
+
+    startSong()   
 }
 
 next.addEventListener('click', nextSong)
