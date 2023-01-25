@@ -29,3 +29,18 @@ body {
 }
 
 /* ---- PLAYER ---- */
+.container {
+    display: flex;
+    position: relative;
+    border-radius: 0.938rem;
+    background-color: var(--pink);
+    box-shadow: 0 10px 60px #cc99a2;
+    margin: 6.25rem 0;
+    padding: 1.25rem 1.875rem;
+    z-index: 999;
+}
+
+img {
+    height: 5rem;
+    width: 5rem;
+}
