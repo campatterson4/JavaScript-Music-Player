@@ -46,25 +46,21 @@ function stopSong() {
 
 function nextSong() {
     songFiles++
-
     if(songFiles > songs.length - 1) {
         songFiles = 0
     }
 
     playSong(songs[songFiles])
-    
     startSong()
 }
 
 function previousSong() {
     songFiles--
-
     if(songFiles < 0) {
         songFiles = songs.length - 1
     }
 
     playSong(songs[songFiles])
-
     startSong()   
 }
 
