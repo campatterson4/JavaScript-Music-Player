@@ -84,3 +84,5 @@ function clickProgress(x) {
 
     music.currentTime = (click / width) * duration
 }
+
+music.addEventListener('ended', nextSong)
