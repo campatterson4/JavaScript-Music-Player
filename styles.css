@@ -38,6 +38,7 @@ body {
     margin: 6.25rem 0;
     padding: 1.25rem 1.875rem;
     z-index: 999;
+
 }
 
 .album-container {
@@ -60,7 +61,7 @@ body {
 .album-container img {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -10%;
     border-radius: 50%;
     object-fit: cover;
     height: 8rem;
@@ -69,7 +70,7 @@ body {
     animation-play-state: paused;
 }
 
-.container.playing .album-container img{
+.container.playing .album-container img {
     animation-play-state: running;
 }
 
@@ -112,7 +113,7 @@ body {
     top: 0;
     left: 1.25rem;
     padding: 0.625rem 0.625rem 0.625rem 6em;
-    border-radius: 0.938rem;
+    border-radius: 0.938rem 0.938rem 0 0;
     background-color: rgba(254, 251, 234, 0.3);
     color: var(--black);
 }
