@@ -20,3 +20,20 @@ function playSong(song) {
     music.src = `resources/${song}.mp3`
 }
 
+playing.addEventListener('click', () => {
+    const nowPlaying = container.classList.contains('playing')
+
+    if(nowPlaying) {
+        stopSong()
+    } else {
+        startSong()
+    }
+ });
+
+ function startSong() {
+    container.classList.add('playing')
+ }
+
+function stopSong() {
+
+}
