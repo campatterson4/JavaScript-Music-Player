@@ -141,7 +141,8 @@ body {
 
 .progress {
     height: 100%;
-    width: 50%;
+    width: 0%;
     border-radius: 0.313rem;
     background-color: var(--dark-pink);
+    transition: width 0.1s linear;
 }
