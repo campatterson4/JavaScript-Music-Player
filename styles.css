@@ -42,7 +42,7 @@ body {
 
 .album-container {
     position: relative;
-    width: 6.875rem;
+    width: 10rem;
 }
 
 .album-container::after {
@@ -54,7 +54,7 @@ body {
     background-color: var(--cream);
     height: 1.25rem;
     width: 1.25rem;
-    transform: translate(-40%, -130%);
+    transform: translate(-110%, -150%);
 }
 
 .album-container img {
@@ -63,8 +63,8 @@ body {
     bottom: 0;
     border-radius: 50%;
     object-fit: cover;
-    height: 6.875rem;
-    width: inherit;
+    height: 8rem;
+    width: 8rem;
     animation: rotate 5s linear infinite;
     animation-play-state: paused;
 }
@@ -113,15 +113,34 @@ body {
     left: 1.25rem;
     padding: 0.625rem 0.625rem 0.625rem 6em;
     border-radius: 0.938rem;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(254, 251, 234, 0.3);
     color: var(--black);
 }
 
 .info h4 {
-    margin: 0;
+    margin: .8rem;
+    margin-left: 4.1rem !important;
 }
 
 .container.playing .info {
     transform: translateY(-100%);
     opacity: 1;
+}
+
+.progress-container {
+    position: relative;
+    left: 23%;
+    height: 0.25rem;
+    width: 70%;
+    margin: 0.625rem 0;
+    cursor: pointer;
+    border-radius: 0.313rem;
+    background-color: var(--cream);
+}
+
+.progress {
+    height: 100%;
+    width: 50%;
+    border-radius: 0.313rem;
+    background-color: var(--dark-pink);
 }
