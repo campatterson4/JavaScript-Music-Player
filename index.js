@@ -1,5 +1,5 @@
 const container = document.querySelector('.container')
-const albumCover = document.querySelector('#albumCover')
+const albumCover = document.querySelector('#album-cover')
 const songTitle = document.querySelector('#song-title')
 const prev = document.querySelector('#previous')
 const next = document.querySelector('#next')
@@ -8,7 +8,7 @@ const progressContainer = document.querySelector('.progress-container')
 const music = document.querySelector('#music')
 const progress = document.querySelector('.progress')
 
-const songs = ['you missed my heart', 'georgia', 'funeral']
+const songs = ['Georgia', 'If I Fall', 'We Fell in Love in October']
 
 let songFiles = 2
 
