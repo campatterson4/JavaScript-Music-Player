@@ -25,6 +25,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     background-image: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(137, 207, 240) 92%);
+    background-repeat: no-repeat;
 }
 
 /* ---- PLAYER ---- */
