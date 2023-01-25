@@ -40,7 +40,45 @@ body {
     z-index: 999;
 }
 
-img {
-    height: 5rem;
-    width: 5rem;
+.album-container {
+    position: relative;
+    width: 6.875rem;
+}
+
+.album-container::after {
+    content:"";
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    border-radius: 50%;
+    background-color: var(--cream);
+    height: 1.25rem;
+    width: 1.25rem;
+    transform: translate(-40%, -160%);
+
+}
+
+.album-container img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 6.875rem;
+    width: inherit;
+    animation: rotate 5s linear infinite;
+    animation-play-state: paused;
+}
+
+.container.playing .album-container img{
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
