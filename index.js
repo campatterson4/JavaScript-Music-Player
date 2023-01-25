@@ -10,7 +10,7 @@ const progress = document.querySelector('.progress')
 
 const songs = ['Georgia', 'If I Fall', 'We Fell in Love in October']
 
-let songFiles = 2
+let songFiles = 0
 
 playSong(songs[songFiles])
 
