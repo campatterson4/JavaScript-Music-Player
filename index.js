@@ -74,3 +74,13 @@ function showProgress(x) {
     const progressBar = (currentTime / duration) * 100
     progress.style.width = `${progressBar}%`
 }
+
+progressContainer.addEventListener('click', clickProgress)
+
+function clickProgress(x) {
+    const width = this.clientWidth
+    const click = x.offsetX
+    const duration = music.duration
+
+    music.currentTime = (click / width) * duration
+}
