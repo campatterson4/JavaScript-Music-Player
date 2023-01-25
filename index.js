@@ -44,3 +44,24 @@ function stopSong() {
     music.pause()
 }
 
+function nextSong() {
+
+}
+
+function previousSong() {
+    songFiles--
+
+    if(songFiles < 0) {
+        songFiles = songs.length - 1
+    }
+
+    playSong(songs[songFiles])
+    
+    startSong()
+        
+}
+
+next.addEventListener('click', nextSong)
+prev.addEventListener('click', previousSong)
+
+
